@@ -51,7 +51,7 @@ def generateCID():
 def addCustomer():
     file = open('customers.bin','ab')
     cid = generateCID()
-    print("\n\t Generated Customer ID :", cid)
+    print("\n\t Customer ID :", cid)
     cname = input("\t Enter Customer Name : ")
     cadd = input("\t Enter Customer Address : ")
     cmob = int(input("\t Enter Customer Mobile : "))
@@ -136,7 +136,7 @@ def generatePID():
 def addProduct():
     file = open('products.bin','ab')
     pid = generatePID()
-    print("\n\t Generated Product ID :", pid)
+    print("\n\t Product ID :", pid)
     pname = input("\t Enter Product Name : ")
     pprice = int(input("\t Enter Product Price : "))
     pdesc= input("\t Write About The Product : ")
