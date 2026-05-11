@@ -27,13 +27,14 @@ All data is stored using Python `pickle` module.
 
 ## Project Structure
 
+```text
 customers.bin   -> Stores customer data
 products.bin    -> Stores product data
 order.bin       -> Stores order data
 cid.txt         -> Stores last customer ID
 pid.txt         -> Stores last product ID
 main.py         -> Main program file
-
+```
 ## Important Logic
 
 - When placing an order:
@@ -84,7 +85,9 @@ This fixed the issue and made order history reliable.
 1. Open terminal / command prompt
 2. Navigate to project folder
 3. Run:
+```python
 python main.py
+```
 
 ## Note 
 
