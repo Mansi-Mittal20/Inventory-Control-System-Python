@@ -80,15 +80,15 @@ This fixed the issue and made order history reliable.
 - File Handling
 - Pickle Module
 
-## How to Run 
+## How to Run
 
 1. Open terminal / command prompt
-2. Navigate to project folder
+2. Navigate to the project folder
 3. Run:
-```python
+
+```bash
 python main.py
 ```
-
 ## Note 
 
 This is a basic project for learning purposes.  
